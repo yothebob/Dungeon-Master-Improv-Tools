@@ -4,7 +4,9 @@ import sys
 # name creation
 prefix = ['De','Sin','Kum','Vin','Che','Fre','Roy','Tib','Cen','San','Grab','Gru','Gre','Dir','Vlad','Var','Tok','Tol','Mac','Ada','Sa','Dm','Py','Al','Ar',
           'Jo','Sp','Ti','Gar','Mat','Za','Jer','Att','Bra','Bro','Bri','Re','Ger','Sw','Con','Her','Wi']
+
 middle = ['il','om','aral','et','er','io','deh','ia','ra','th','ud','ub','row','i','ic','ol',]
+
 suffix = ['an','pi','non','is','ich','us','le','wood','ie','elm','der','osk','oft','obe','eim','ra','on','rey','n','or','el','i','etta','anna','ak','rra','ag',
           'ko','mey','bert',]
 
@@ -16,22 +18,30 @@ appearance = ["lots of jewelery","piercings","flamboyant or colorful clothes",
               "nervous twitch", "distinctive nose", "good or bad posture", "beautiful",
               "ugly", "nerdy/ bookworm",'long braided blonde hair','very tan','bad posture','very curly hair','allways smiling',
               'allways frowning','wrinkly/old', 'child', 'fake hand/ wood or metal hook']
+
 gender = ['Male', 'female']
+
 race = ["human","elf",'high elf', "halfling", "gnome", "dragonborn", "lizardfolk", "Tiefling",
         "dwarf","orc",'half-elf',]
+
 skilled = ["strong", "agile/graceful","smart","wise/ spiritual","charasmatic", 'hard-ass', 'jokster/prankster']
+
 unskilled = ["weak", "clumsy", "dumb", "oblivious", "dull/ boring"]
+
 talent = ['plays an instrument', 'multi langual', 'really lucky', 'perfect memory',
           'animal lover','great with children','great puzzle solver', 'great at one game',
           'great at drawing', 'great at painting', 'great singer', 'great at drinking',
           'master carpenter','expert cook','skilled actor','dancer','knows thieves cant']
+
 mannerism = ['prone to sing, hum or whistle','speaks in rhyme','speak in low or high voice',
              'drunk ','speaks loudly','whispers','uses long words','uses wrong words','fidgets',
              'constantly jokes','expects doomsday','squints(clint eastwood)','spacey (stares off alot)',
              'chewing','pacing','tap fingers','twist hair', 'bite fingernails', 'makes big hand gestures',
              'never knows the date/ time', 'allways excited','act like on crack','a deep thinker', 'stretches the truth', 'clean freak', 'horder']
+
 ideals = ['dedicated to life goal','protective of family','protective of coworkers','loyal to clan/ employer',
           'deep in love','drawn to a place of interest','protective of a possession','seeking revenge', 'very religious']
+
 flaw = ['secret lover ', 'prone to falling in love', 'enjoys luxury ','Arrogant','envies others things',
         'greedy','prone to rage','has a powerful enemy','phobia','previous scandalous history','secret misdeed',
         'dumbly brave', 'lazy', 'never surrenders', 'married', 'in an abusive relationship', 'in a relationship', 'veryyy single', 'single', 'irrational fear of dumb thing']
@@ -41,9 +51,11 @@ the = 'The '
 description = ['cruel ','shaking ','salty ','juicy ','happy ','green ','red ','grey ',
          'Brass ','gold ','armed ','even ','black ','elven ','silver ','dwarvish ','hellish ','crusty ','silver ','tarnished ', 'weathered ','targets ','crumbling ','crimson ',
                'gems ','invisible ','blackened ','charred ','wet ','arrogant ']
+
 animal = ['soldiers ','dragons ','dwarfs ','beholders ','hawks ','hunters ','steeds ','oil lamps ',
          'ravens ','harpy ','manticores ','pixies ','krakens ','giants ','donkeys ',
          'griffon ','rusty ','rats ', 'racoons ', 'spiders ','banshee ','devils ','lichs ','owlbears ','centaurs ']
+
 end = ['pub','inn','hub','den ','bar ','saloon ','house ','eye ','head ','hideout ','hole ', 'watering hole ','lair ']
 
 # city creation
@@ -56,8 +68,12 @@ city_reason = ['growing spices', 'good hardwood', 'lumber', 'grape growing', 'co
                'fair weather(vacation spot)','metal mines', 'precious metal mines', 'coal mines', 'on trade route']
 #idea creation
 pronoun = ['you ','we ','he ','she ','good guys ','bad guys ']
+
 verb = ['need ','took ','stole ','had ','kept ','killed ','fought ','deliver ','discover ','hates ','likes ','is vunerible to ','is immune to ','explored ','expected ','forgot ','forbid ','gave ','froze ','hid ','lead ','learn ']
+
 noun = ['sword','bow','eye','girl','child','sickness','health','goverment','sibling','orb','magic item','magic','world','hell']
+
+
 def start():
     pick = input('what do you want to generate?\n type "npc" for random npc \n type "tavern" for random tavern \n type "name" for random name \n type "end" to close\n type "dice" to roll a die \n type "city" to gen city\n type "shop" to gen shops \n type "idea" to gen idea spark\n: ')
     if pick.lower() == "npc":
@@ -180,6 +196,7 @@ def gen_npc():
     npc.append(random.choice(mannerism))
     npc.append(random.choice(ideals))
     npc.append(random.choice(flaw))
+    npc.append('-----------------------------------------------')
     return npc
 
   
@@ -197,7 +214,7 @@ def gen_npcs():
 
 
 def roll_dice():
-    dice_type = int(input('what die do you want to role? : '))
+    dice_type = int(input('what die do you want to role? (4,6,8,10,12,20) : '))
     rolls = int(input('how many dice? : '))
     total = 0
     for roll in range(rolls):
