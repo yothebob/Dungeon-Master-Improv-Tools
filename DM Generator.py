@@ -31,19 +31,19 @@ race = ["human","elf",'high elf', "halfling", "gnome", "Tiefling","dwarf","orc",
 skilled = ["strong", "agile/graceful","smart","wise/ spiritual","charasmatic", 'hard-ass', 'jokster/prankster',"weak", "clumsy",
            "dumb", "oblivious", "dull/ boring",'night owl']
 
-
 talent = ['plays an instrument', 'multi langual', 'really lucky', 'perfect memory',
           'animal lover','great with children','great puzzle solver', 'great at one game',
           'great at drawing', 'great at painting', 'great singer', 'great at drinking',
           'master carpenter','expert cook','skilled actor','dancer','knows thieves cant','self taught magic user','pet trainer',
-          'ship captain','expert machine tinker','potion maker/herbalist']
+          'ship captain','expert machine tinker','potion maker/herbalist','master thief','master forger','knows the king personally','has a magical item they dont know what it does']
 
 mannerism = ['prone to sing, hum or whistle','speaks in rhyme','speak in low or high voice',
              'drunk ','speaks loudly','whispers','uses long words','uses wrong words','fidgets',
              'constantly jokes','expects doomsday','squints(clint eastwood)','spacey (stares off alot)',
              'chewing','pacing','tap fingers','twist hair', 'bite fingernails', 'makes big hand gestures',
              'never knows the date/ time', 'allways excited','act like on crack','a deep thinker', 'stretches the truth',
-             'clean freak', 'horder','stinky','thinks out loud','pregnent/ballsniffer', 'allways smoking','cusses alot','smell really good','innaproperate laughing']
+             'clean freak', 'horder','stinky','thinks out loud','pregnent/ballsniffer', 'allways smoking','cusses alot','smell really good','innaproperate laughing',
+             'wants to be an adventurer']
 
 ideals = ['dedicated to life goal','protective of family','protective of coworkers','loyal to clan/ employer',
           'deep in love','drawn to a place of interest','protective of a possession','seeking revenge', 'very religious']
@@ -51,7 +51,9 @@ ideals = ['dedicated to life goal','protective of family','protective of coworke
 flaw = ['secret lover ', 'prone to falling in love', 'enjoys luxury ','Arrogant','envies others things',
         'greedy','prone to rage','has a powerful enemy','phobia','previous scandalous history','secret misdeed',
         'dumbly brave', 'lazy', 'never surrenders', 'married', 'in an abusive relationship', 'in a relationship', 'veryyy single', 'single',
-        'irrational fear of dumb thing','racist','addicted to drug','sleepwalker','flirty/lustful','abstinate']
+        'irrational fear of dumb thing','racist','addicted to drug','sleepwalker','flirty/lustful','abstinate','A bad Bard-barian','experiments on dead bodies',
+        'a drow desquised as human','dwarf that wants to be a wizard','a ghost but think they are alive','freaky friday life swapped with a orc warchief','freaky friday life swapped with a Gnome mage',
+        'little girl protected by a demon','plants evidence to get people arrested they dont like','secretly a vampire']
 
 # tavern creation
 the = 'The '
@@ -67,20 +69,28 @@ end = ['pub','inn','hub','den ','bar ','saloon ','house ','eye ','head ','hideou
 
 food= ['owlbear ribs','magical carmelized fritters healing potion','Barbecued tiger fish and papaya','Braised beef and pears with ginger','Pork chop & curds','Honey braised boar ribs','Venison and bean stew','Cooked wolf steak',
        'Mushroom stew with corn bread','Acorn soup','Lizard gruel with nutbread','Porridge','Hot beet soup and fresh bread','giant spider stew','Minted pea soup','Elven bread','Braised duck','fried chicken with honey pepper sauce','pasta with red sauce and scallops','roasted roots with wild salad',
-       'meat of the day','honey with berries and cornbread','fig feta flatbread','wild salad','potatoe fries','turnip fries','hashbrown and eggs','fried wolf steak and mashed turnips']
+       'meat of the day','honey with berries and cornbread','fig feta flatbread','wild salad','potatoe fries','turnip fries','hashbrown and eggs','fried wolf steak and mashed turnips', 'Damaran Goulash','Parsnip pie','hellblood biscuits','sweet and spicy meatballs',
+       'Garlic Fries','Pot Pie','Drow Mushroom Steak','Fey Wild Salad','Heros Feast Stew']
+
 
 drink = ['Grog','goblin spit ale','turnip wine','moonshine','dwarven ale','Pulsch brown ale','moon mountian ale','spiced ale','spiced squash stout','kings ale','wrymwizz ale','elderberry spiced wine','lotus leaf wine','stonesulder wine (yellow demon plant)','sweetberry wine',
-          'mead','ale','pear sour','grape sparkling wine','moon rum','vodka','scotch','berry brandy','moss mead','honeysuckle mead','coffee stout','fireweed wiskey','mushroom moonshine','greensage cider','abyssal ale','ghost ale(become ghost for hr)','goodale(adv for good chr 1 hr)'
-          ,'sweetwater(cure poison)','rutabega ale','gorgondy ale (see a past vision)','future root ale(see future vision)','beet beer']
-
-# city creation
-shop = ['magic shop','map shop','armory','blacksmith','food market','general store','clothing store','book store','pet store','jeweler',
-        'temple','live stock store', 'shipmaker', 'carpenter','taxidermist','potion shop','grain mill','bakery','butcher','beekeeper',]
+          'mead','ale','pear sour','grape sparkling wine','moon rum','vodka','scotch','berry brandy','moss mead','honeysuckle mead','coffee stout','fireweed wiskey','mushroom moonshine','greensage cider','abyssal ale','ghost ale(become ghost for hr)','goodale(adv for good chr 1 hr)',
+          'sweetwater(cure poison)','rutabega ale','gorgondy ale (see a past vision)','future root ale(see future vision)','beet beer','Firesteap Mountian dew','Cloven Mountian Dew']
 
 tavern_traits = ['high class', 'shit hole', 'gang hangout', 'running out of supplies', 'average town inn', 'secret club running',
                  'well furnished', 'big', 'small','busy', 'ghost town', 'secret monster/s hiding ','brawling arena', 'monster fighting arena','gambling tables/ machines','haunted',
                  'multidimentional inn(portal inside)','completely run by ','everything shrinks', 'huge tavern','full of advanced machinery','everyone inside gets a magic cantrip ability','food eating contest','drinking contests'
-                 ,'pay or fight (pits, portals, teleport etc)','underground rave club','huge tavern /libary. center point of knowlege','suspended over a giant hole in the earth','built around a cave, adventures never come back out']
+                 ,'pay or fight (pits, portals, teleport etc)','underground rave club','huge tavern /libary. center point of knowlege','suspended over a giant hole in the earth','built around a cave, adventures never come back out','underwater','Band Playing','Glatiator Arena',
+                 'jousting arena','Casino','Dog Racing','Horse Racing','Drunk athletic games to win gold','Built In Theater',]
+
+tavern_events= ['intoxicated person knocks over lamp, starts fire','Someone falls out of their seat, but were poisoned','a storm outside blows down a tree falling onto the bar','a storm hits, tree branches break into the window','someone walks in dressed as a horse',
+                'someone plays game with the players, cheats the game','a man in tatter clothes is asking people for a meal, the bartenter is trying tokick him out','The bar is racist to Elves','a few tables of people are racist to gnomes','a table of non human gang members pick on a human',
+                'An investigator is studying his case alone in the corner','someone starts reading from a book to summon a spined devil','a wealthy man tries to buy the bar a round and leave before paying','Bar fight! Love Rivakry','Bar fight! Accidental insult','Bar fight! punching someone on accident',
+                'Bar fight! 2 gangs','Bar fight! money']
+
+# city creation
+shop = ['magic shop','map shop','armory','blacksmith','food market','general store','clothing store','book store','pet store','jeweler',
+        'temple','live stock store', 'shipmaker', 'carpenter','taxidermist','potion shop','grain mill','bakery','butcher','beekeeper','Church','Casino','Fish/meat Market','art store',]
 
 city_reason = ['growing spices', 'good hardwood', 'lumber', 'grape growing', 'corn and grain growing', 'fishing', 'hunting', 'oil field',
                'mineral mines','magic mines','fair weather(vacation spot)','metal mines', 'precious metal mines', 'coal mines', 'on trade route']
@@ -104,17 +114,16 @@ monsters = ['vampires','goblins','succubus','devil','demon','doppleganger','ware
 locations = ['magic dead zone','wild magic zone', 'bolder carved with talking faces','crystal cave that will anwser questions','old tree with a spirit trapped inside',
             'old battlefield where fog forms and shows human shapes','dimensional portal','wishing well','giant crystal shard in ground','floating earth peices','wrecked ship on land',
             'haunted house','haunted graveyard','river ferry lead by skeleton','battle field with statue people','treeant forest','floating earth with tower on it','pyramid',
-            'faces carved in a cliff','giant statues','obelisk with lore','ruined obolisk','fountian','city ruins','wild magic fountian']
+            'faces carved in a cliff','giant statues','obelisk with lore','ruined obolisk','fountian','city ruins','wild magic fountian',]
 
-villain_immortality = ['acquire a legendary item to become immortal','ascend to godhood','become undead or younger body','steal a planar creatures body']
-villain_influence = ['seize a position of power','win contest or tourament','win over a powerful individual','place a pawn in a position of power']
-villain_magic = ['obtain an ancient artifact','build or construct a magical device','carry out deitys wishes','offer sacrifice to deity', 'contact a lost deity or power','open a gate to another world']
-villain_mayhem = ['fulfill apocalyptic prophecy','enact vengeful will of god or patron','spread disease','overthrow goverment','trigger natrual disaster','destroy blodline/clan']
-villain_passion = ['prolong lif of loved one','prove worthy of anothers love','restore dead loved one','destroy rivals for persons affections']
-villain_power = ['conquer region/incite rebellion','seize control of army','become power of throne','gain favor of ruler']
-villain_revenge = ['avenge past insult/humiliation','avenge past imprisionment/injury','avenge loved one','retrieve stolen property/punish thief']
-villain_wealth = ['control trade/natrual resources','marry into wealth','plunder anchient ruins','steal land/goods/money']
-villain_scheme = [villain_immortality,villain_influence,villain_magic,villain_mayhem,villain_passion,villain_power,villain_revenge,villain_wealth]
+# plot hook
+
+plot_hook = ['a boy runs to you choaking and dies, he was poisoned',' you see 2 guards snatching a boy and girl, they mention something about a ritual','the players are asked to escort goods, guards find it is full of contraband','a mastermind is posting up peoples names, they die the next day mysteriously',
+             'this city has banned magic, you could be burned or killed for using magic','an old dwarf warrior wants to fight the best warrior to the death, if you win you get his treasure map','they hear an abandoned baby, if touched they souls swap.','a gnome made golems for the city guard, the golems attacked the city',
+             'a palidian is charged for killing someone in public, but everything feels off...','2 demons are having a duel, one demon tries to recruit the party','ground hogs day, they must solve a mystery to continue (another plot hook/idea)','a drow clan has uprooted to the surface pillaging.. Why?',
+             'you party with the prince, you wake up the next morning with him dead..','a graveyard slowly starts coming back alive','the royal family has been replaced by dopplegangers','you run into a naked mind flayer that does not know who or what he is','the king has betrayed a devil he has a deal with, the town gets attacked by a balor',
+             'a kid runs up to you, guards follow. He stole something powerful but the players dont know it']
+
 
 def start():
     print("""
@@ -128,9 +137,8 @@ type "dice" to roll a die
 type "city" to gen city
 type "shop" to gen shops
 type "idea" to gen idea spark
-type "poi" to generate a point of interest
-type "menu" to gen tavern menu
-          """  
+type "poi" to gen a point of interest
+type "hook" to gen plot hook"""  
         )
     pick = input(': ')
     if pick.lower() == "npc":
@@ -149,8 +157,8 @@ type "menu" to gen tavern menu
         gen_city()
     elif pick.lower() == 'poi':
         gen_location()
-    elif pick.lower() == 'villain':
-        gen_villain()
+    elif pick.lower() == 'hook':
+        gen_hook()
     elif pick.lower() == 'shop':
         gens = int(input('how many shops do you want to make? : '))
         print()
@@ -190,7 +198,6 @@ def gen_name():
 
 
 
-
 def gen_names():
     numofnames = input('how many names? : ')
     
@@ -200,6 +207,13 @@ def gen_names():
         print()
     start()
 
+
+
+def gen_hook():
+    num = input('how many hooks?: ')
+    for hook in range(int(num)):
+        print(random.choice(plot_hook))
+    start()
 
 
 
@@ -214,34 +228,16 @@ def gen_shops(_num):
         print('---------------------------------------------------------------')
         print()
 
-
-
-
-def gen_tavern():
-
+def gen_menu(items):
     print()
-    gen_begin = random.choice(description)
-    gen_mid = random.choice(animal)
-    gen_end = random.choice(end)
-    choose = random.randrange(1,4)
-    tav_trait = random.choice(tavern_traits)
-    if tav_trait == 'secret monster/s hiding ':
-        tav_trait = tav_trait + random.choice(monsters)
-    if tav_trait == 'completely run by ':
-        tav_trait = tav_trait + random.choice(monsters)
-    if tav_trait == 'everyone inside gets a magic cantrip ability':
-        tav_trait = tav_trait + random.choice(magic)
-    if choose == 1:
-        tavern = (the + gen_begin + gen_end)
-    elif choose == 2:
-        tavern = (the + gen_begin + gen_mid)
-    else:
-        tavern = (the + gen_begin + gen_mid + gen_end)
-        
-    return tavern, tav_trait
+    genmenu=[]
+    for item in range(int(items)):
+        genmenu.append(random.choice(food))
+        genmenu.append(random.choice(drink))
+    return genmenu
+    
 
-
-def gen_menu():
+def gen_menus():
     print()
     items = input('how many menu items do you want?')
     foods = round(int(items)/2,0)
@@ -257,6 +253,38 @@ def gen_menu():
     print()
     start()
     
+def gen_tavern_event(num):
+    res = []
+    for event in range(int(num)):
+        res.append(random.choice(tavern_events))
+    return res
+    
+
+def gen_tavern():
+
+    print()
+    gen_begin = random.choice(description)
+    gen_mid = random.choice(animal)
+    gen_end = random.choice(end)
+    choose = random.randrange(1,4)
+    tav_trait = random.choice(tavern_traits)
+    menu = gen_menu(3)
+    event = gen_tavern_event(2)
+    if tav_trait == 'secret monster/s hiding ':
+        tav_trait = tav_trait + random.choice(monsters)
+    if tav_trait == 'completely run by ':
+        tav_trait = tav_trait + random.choice(monsters)
+    if tav_trait == 'everyone inside gets a magic cantrip ability':
+        tav_trait = tav_trait + random.choice(magic)
+    if choose == 1:
+        tavern = (the + gen_begin + gen_end)
+    elif choose == 2:
+        tavern = (the + gen_begin + gen_mid)
+    else:
+        tavern = (the + gen_begin + gen_mid + gen_end)
+        
+    return tavern, tav_trait, menu,event
+
 
 
 def gen_taverns():
@@ -264,8 +292,11 @@ def gen_taverns():
     loop = int(input('how many names do you want?'))
     print()
     for gen in range(loop):
-        tavern, tav_trait = gen_tavern()
+        tavern, tav_trait,menu,event = gen_tavern()
         print(tavern + " : " + tav_trait)
+        print("Menu: " + str(menu))
+        print()
+        print('Events: ' + str(event))
         print()
     start()
 
@@ -316,6 +347,7 @@ def roll_dice():
 
 def gen_city():
     city_size = input('what size city do you want? type s,m or l. : ')
+    city_num = int(input('how many cities?: '))
     if city_size.lower() == 's':
         total_inns = 1
         shops = 4
@@ -325,21 +357,22 @@ def gen_city():
     elif city_size.lower() == 'l':
         total_inns = 3
         shops = 10
-    print()
-    print("city name -------------------------------------------------------------------")
-    print()
-    print('reason for city: ' + random.choice(city_reason))
-    for bar in range(total_inns):
-        tavern, tav_trait = gen_tavern()
-        print("Tavern: " + str(tavern) + ' : ' + tav_trait)
-        print("barkeep: ")
-        barkeep = gen_npc()
-        for trait in barkeep:
-            print(trait)
-
+    for num in range(city_num):
         print()
-        print('---------------------------------------------------------------------------')
-    gen_shops(shops)
+        print("city name -------------------------------------------------------------------")
+        print()
+        print('reason for city: ' + random.choice(city_reason))
+        for bar in range(total_inns):
+            tavern, tav_trait = gen_tavern()
+            print("Tavern: " + str(tavern) + ' : ' + tav_trait)
+            print("barkeep: ")
+            barkeep = gen_npc()
+            for trait in barkeep:
+                print(trait)
+
+            print()
+            print('---------------------------------------------------------------------------')
+        gen_shops(shops)
     start()
     
 def gen_location():
