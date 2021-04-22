@@ -84,8 +84,8 @@ tavern_traits = ['high class', 'shit hole', 'gang hangout', 'running out of supp
                  'jousting arena','Casino','Dog Racing','Horse Racing','Drunk athletic games to win gold','Built In Theater',]
 
 tavern_events= ['intoxicated person knocks over lamp, starts fire','Someone falls out of their seat, but were poisoned','a storm outside blows down a tree falling onto the bar','a storm hits, tree branches break into the window','someone walks in dressed as a horse',
-                'someone plays game with the players, cheats the game','a man in tatter clothes is asking people for a meal, the bartenter is trying tokick him out','The bar is racist to Elves','a few tables of people are racist to gnomes','a table of non human gang members pick on a human',
-                'An investigator is studying his case alone in the corner','someone starts reading from a book to summon a spined devil','a wealthy man tries to buy the bar a round and leave before paying','Bar fight! Love Rivakry','Bar fight! Accidental insult','Bar fight! punching someone on accident',
+                'someone plays game with the players, cheats the game','a man in tatter clothes is asking people for a meal, the bartender is trying tokick him out','The bar is racist to Elves','a few tables of people are racist to gnomes','a table of non human gang members pick on a human',
+                'An investigator is studying his case alone in the corner','someone starts reading from a book to summon a spined devil','a wealthy man tries to buy the bar a round and leave before paying','Bar fight! Love Rivalry','Bar fight! Accidental insult','Bar fight! punching someone on accident',
                 'Bar fight! 2 gangs','Bar fight! money']
 
 # city creation
@@ -114,7 +114,7 @@ monsters = ['vampires','goblins','succubus','devil','demon','doppleganger','ware
 locations = ['magic dead zone','wild magic zone', 'bolder carved with talking faces','crystal cave that will anwser questions','old tree with a spirit trapped inside',
             'old battlefield where fog forms and shows human shapes','dimensional portal','wishing well','giant crystal shard in ground','floating earth peices','wrecked ship on land',
             'haunted house','haunted graveyard','river ferry lead by skeleton','battle field with statue people','treeant forest','floating earth with tower on it','pyramid',
-            'faces carved in a cliff','giant statues','obelisk with lore','ruined obolisk','fountian','city ruins','wild magic fountian',]
+            'faces carved in a cliff','giant statues','obelisk with lore','ruined obolisk','fountian','city ruins','wild magic fountian','flying warship in the distance']
 
 # plot hook
 
@@ -268,7 +268,7 @@ def gen_tavern():
     gen_end = random.choice(end)
     choose = random.randrange(1,4)
     tav_trait = random.choice(tavern_traits)
-    menu = gen_menu(3)
+    menu = gen_menu(4)
     event = gen_tavern_event(2)
     if tav_trait == 'secret monster/s hiding ':
         tav_trait = tav_trait + random.choice(monsters)
