@@ -70,22 +70,22 @@ end = ['pub','inn','hub','den ','bar ','saloon ','house ','eye ','head ','hideou
 food= ['owlbear ribs','magical carmelized fritters healing potion','Barbecued tiger fish and papaya','Braised beef and pears with ginger','Pork chop & curds','Honey braised boar ribs','Venison and bean stew','Cooked wolf steak',
        'Mushroom stew with corn bread','Acorn soup','Lizard gruel with nutbread','Porridge','Hot beet soup and fresh bread','giant spider stew','Minted pea soup','Elven bread','Braised duck','fried chicken with honey pepper sauce','pasta with red sauce and scallops','roasted roots with wild salad',
        'meat of the day','honey with berries and cornbread','fig feta flatbread','wild salad','potatoe fries','turnip fries','hashbrown and eggs','fried wolf steak and mashed turnips', 'Damaran Goulash','Parsnip pie','hellblood biscuits','sweet and spicy meatballs',
-       'Garlic Fries','Pot Pie','Drow Mushroom Steak','Fey Wild Salad','Heros Feast Stew']
+       'Garlic Fries','Pot Pie','Drow Mushroom Steak','Fey Wild Salad','Heros Feast Stew','roasted honey glazed turkey','pot meat sandwhich','porkbelly cuts with ripe figs','buckwheat pancakes with mullberry syrup','cooked rabit with ground cherry salsa','underdark mushroom meadly','rye swirl bread']
 
 
 drink = ['Grog','goblin spit ale','turnip wine','moonshine','dwarven ale','Pulsch brown ale','moon mountian ale','spiced ale','spiced squash stout','kings ale','wrymwizz ale','elderberry spiced wine','lotus leaf wine','stonesulder wine (yellow demon plant)','sweetberry wine',
           'mead','ale','pear sour','grape sparkling wine','moon rum','vodka','scotch','berry brandy','moss mead','honeysuckle mead','coffee stout','fireweed wiskey','mushroom moonshine','greensage cider','abyssal ale','ghost ale(become ghost for hr)','goodale(adv for good chr 1 hr)',
-          'sweetwater(cure poison)','rutabega ale','gorgondy ale (see a past vision)','future root ale(see future vision)','beet beer','Firesteap Mountian dew','Cloven Mountian Dew']
+          'sweetwater(cure poison)','rutabega ale','gorgondy ale (see a past vision)','future root ale(see future vision)','beet beer','Firesteap Mountian dew','Cloven Mountian Dew','Black Dragons bite','mushroom tea','ground cherry sour','herbal tomato drink','',]
 
 tavern_traits = ['high class', 'shit hole', 'gang hangout', 'running out of supplies', 'average town inn', 'secret club running',
                  'well furnished', 'big', 'small','busy', 'ghost town', 'secret monster/s hiding ','brawling arena', 'monster fighting arena','gambling tables/ machines','haunted',
                  'multidimentional inn(portal inside)','completely run by ','everything shrinks', 'huge tavern','full of advanced machinery','everyone inside gets a magic cantrip ability','food eating contest','drinking contests'
                  ,'pay or fight (pits, portals, teleport etc)','underground rave club','huge tavern /libary. center point of knowlege','suspended over a giant hole in the earth','built around a cave, adventures never come back out','underwater','Band Playing','Glatiator Arena',
-                 'jousting arena','Casino','Dog Racing','Horse Racing','Drunk athletic games to win gold','Built In Theater',]
+                 'jousting arena','Casino','Dog Racing','Horse Racing','Drunk athletic games to win gold','Built In Theater','giant floating ghost ship','head trophies line the walls, adventures come to show off the best trophies','tavern run by a gnome and his clockwork robots/ inventions']
 
 tavern_events= ['intoxicated person knocks over lamp, starts fire','Someone falls out of their seat, but were poisoned','a storm outside blows down a tree falling onto the bar','a storm hits, tree branches break into the window','someone walks in dressed as a horse',
                 'someone plays game with the players, cheats the game','a man in tatter clothes is asking people for a meal, the bartender is trying tokick him out','The bar is racist to Elves','a few tables of people are racist to gnomes','a table of non human gang members pick on a human',
-                'An investigator is studying his case alone in the corner','someone starts reading from a book to summon a spined devil','a wealthy man tries to buy the bar a round and leave before paying','Bar fight! Love Rivalry','Bar fight! Accidental insult','Bar fight! punching someone on accident',
+                'An investigator is studying his case alone in the corner','someone starts reading from a book to summon a spined devil','a wealthy man tries to buy the bar a round and leave before paying','Bar fight! Love Rivakry','Bar fight! Accidental insult','Bar fight! punching someone on accident',
                 'Bar fight! 2 gangs','Bar fight! money']
 
 # city creation
@@ -114,7 +114,9 @@ monsters = ['vampires','goblins','succubus','devil','demon','doppleganger','ware
 locations = ['magic dead zone','wild magic zone', 'bolder carved with talking faces','crystal cave that will anwser questions','old tree with a spirit trapped inside',
             'old battlefield where fog forms and shows human shapes','dimensional portal','wishing well','giant crystal shard in ground','floating earth peices','wrecked ship on land',
             'haunted house','haunted graveyard','river ferry lead by skeleton','battle field with statue people','treeant forest','floating earth with tower on it','pyramid',
-            'faces carved in a cliff','giant statues','obelisk with lore','ruined obolisk','fountian','city ruins','wild magic fountian','flying warship in the distance']
+            'faces carved in a cliff','giant bronze statues of gods','obelisk with lore','ruined obolisk','fountian','city ruins','wild magic fountian','Ghost reenacting an old event that happened before their death...',
+             'a huge pit that seems to have the floating earth peices','a sandstone shrine with 3 giant gongs and a center worm statue','a statue that is a rusted robot made by a genius gnome','a sword in a large stone','a large monolith that you swap bodies with the person to your left','you come to a trail off the main road with bread crumbs going into the forest',
+             'a goblin built fighting pit arena','an area where the forest and everything shrinks to about half size', 'many trees have cuts and gouges on them, with DC15 investigation, if you stand in the right spot the cuts spell out "RUN"','a marble sacrifical table with fresh blood on it']
 
 # plot hook
 
@@ -122,7 +124,8 @@ plot_hook = ['a boy runs to you choaking and dies, he was poisoned',' you see 2 
              'this city has banned magic, you could be burned or killed for using magic','an old dwarf warrior wants to fight the best warrior to the death, if you win you get his treasure map','they hear an abandoned baby, if touched they souls swap.','a gnome made golems for the city guard, the golems attacked the city',
              'a palidian is charged for killing someone in public, but everything feels off...','2 demons are having a duel, one demon tries to recruit the party','ground hogs day, they must solve a mystery to continue (another plot hook/idea)','a drow clan has uprooted to the surface pillaging.. Why?',
              'you party with the prince, you wake up the next morning with him dead..','a graveyard slowly starts coming back alive','the royal family has been replaced by dopplegangers','you run into a naked mind flayer that does not know who or what he is','the king has betrayed a devil he has a deal with, the town gets attacked by a balor',
-             'a kid runs up to you, guards follow. He stole something powerful but the players dont know it']
+             'a kid runs up to you, guards follow. He stole something powerful but the players dont know it','a brooding pirate wants his rival dead, he is staying at this inn','the mayor wants you to hunt a monster that has been attacking the town, it is a friendly druid firbolg. The mayor just hates firbolg',
+             'you see a group of slaves walk by, one ask for help. says they have something of great value','It is time for the BBQ competition, the tavern owner asks you to bring back some powerful herbs/ eggs in the cave up the mountian. The lair of a dragon(unknown to players)']
 
 
 def start():
@@ -268,7 +271,7 @@ def gen_tavern():
     gen_end = random.choice(end)
     choose = random.randrange(1,4)
     tav_trait = random.choice(tavern_traits)
-    menu = gen_menu(4)
+    menu = gen_menu(3)
     event = gen_tavern_event(2)
     if tav_trait == 'secret monster/s hiding ':
         tav_trait = tav_trait + random.choice(monsters)
@@ -363,9 +366,12 @@ def gen_city():
         print()
         print('reason for city: ' + random.choice(city_reason))
         for bar in range(total_inns):
-            tavern, tav_trait = gen_tavern()
+            tavern, tav_trait,menu,event = gen_tavern()
             print("Tavern: " + str(tavern) + ' : ' + tav_trait)
             print("barkeep: ")
+            print('Menu: ' + str(menu))
+            print()
+            print('Event: ' + str(event))
             barkeep = gen_npc()
             for trait in barkeep:
                 print(trait)
