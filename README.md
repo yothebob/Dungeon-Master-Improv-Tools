@@ -8,4 +8,4 @@ lightweight program to generate NPC's, names, cities, taverns, random ideas and 
   
 # Installation
   1 - download zip or clone repository. 
-  2 - run the python file with ```console python "DM Generator.py"```
+  2 - run the python file with ``` python "DM Generator.py"```
