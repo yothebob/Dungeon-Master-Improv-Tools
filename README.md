@@ -5,7 +5,10 @@ lightweight program to generate NPC's, names, cities, taverns, random ideas and 
   if you can run python, you can run this. and with a file size of 21kb you will have no problem storing this on any device... Offline or online. 
   
   If you are looking for more of a gui application, I built a flask app into this ![repository](https://github.com/yothebob/Personal-website). I will probably put it into its own web application soon. 
-  
+ 
+ # Want to see it in GO? 
+ [!click here](https://github.com/yothebob/DND-master-improv-go)
+ 
 # Installation
   1 - download zip or clone repository. 
   2 - run the python file with ``` python "DM Generator.py"```
